@@ -1,0 +1,422 @@
+<html>
+<head>
+  <title>Kategori Produk | Isi Kulkasku</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+</head>
+<body>
+	<div class="content-wrapper">
+
+	<div class="mobile-nav">
+
+		<div class="isikulkasku-nav-logo">
+			<a href="../index.html">
+				<img src="../assets/logo.png">
+			</a>
+		</div>
+
+		<div class="nav-toggler">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+	</div>
+
+	<header class="sidebar-area">
+		<div class="nav-close">
+			<h1>X</h1>
+		</div>
+		<div class="card-header-icon mb-6">
+			<a href="../index.html">
+				<img src="../assets/logo.png">
+			</a>
+		</div>
+
+		<nav class="navbar-link is-arrowless">
+			<ul>
+				<li> 
+					<a href="../index.html">HOME</a>
+				</li>
+
+				<li class="active">
+					<a href="#">SHOP</a>
+				</li>
+
+				<li>
+					<a href="product/filetd.html">PRODUCT</a>
+				</li>
+
+				<li>
+					<a href="cart.html">CART</a>
+				</li>
+
+				<li>
+					<a href="checkout.html">CHECKOUT</a>
+				</li>	
+			</ul>
+		</nav>
+
+		<div class="btn-kulkasku">
+			<a href="#" class="button">%Discount%</a>
+			<a href="#" class="button">New This Week</a>
+		</div>
+
+		<div class="navbar-link is-arrowless mt-6">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="../assets/cart.png">Cart<span>(0)</span>
+					</a>	
+				</li>
+				<li>
+					<a href="#">
+						<img src="../assets/favorite.png">Favourite
+					</a>		
+				</li>
+				<li>
+					<a href="#">
+						<img src="../assets/search.png">Search
+					</a>			
+				</li>
+			</ul>
+			
+		</div>
+
+		<div class="sosmed mt-6 ">
+			<a href="" class="pin"><img src="../assets/pin.png"></a>
+			<a href="" class="ig"><img src="../assets/ig.png"></a>
+			<a href="" class="fb"><img src="../assets/fb.png"></a>
+			<a href="" class="twt"><img src="../assets/twtr.png"></a>
+		</div>
+	</header>
+
+		<div class="category-sidebar-area">
+			<!-- Menambahkan konten kategori sidebar -->
+
+			<div class="category-widget mb-6">
+				<h6 class="title">Kategori</h6>
+				<div class="navbar-link is-arrowless">
+					<ul>
+						<li>
+							<a href="#">Sayuran</a>
+						</li>
+						<li>
+							<a href="#">Daging</a>
+						</li>
+						<li>
+							<a href="#">Beras</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="brands-widget mb-6">
+				<h6 class="title">Brand</h6>
+				<div class="brands-list">
+					<div class="form-check mb-4">
+						<input class="form-check-box" type="checkbox" value id="sayuran">
+						<label class="form-check-label" for="sayuran">Sayuran</label>
+					</div>
+					<div class="form-check mb-4">
+						<input class="form-check-box" type="checkbox" value id="daging">
+						<label class="form-check-label" for="daging">Daging</label>
+					</div>
+					<div class="form-check mb-4">
+						<input class="form-check-box" type="checkbox" value id="beras">
+						<label class="form-check-label" for="beras">Beras</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="price-product">
+				<h6 class="title">Harga</h6>
+				<div class="price-widget mt-3">
+					<div class="price-range">
+						<input id="sliderMedium" class="slider is-medium is-fullwidth is-circle" min="0" max="100000" value="100" step="500" type="range">
+						<div style="display: flex; flex-wrap: wrap;">
+							<p>Rp.&nbsp;</p>
+							<output for="sliderMedium" id="sliderMediumTooltip">0</output><p>&nbsp;- Rp. 100000</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Batas menambahkan konten kategori sidebar -->
+		</div>
+
+		<div class="category-product-area">
+			<div class="detail-container">
+				<div class="row mt-6 mb-6">
+
+					<!-- Header konten utama -->
+					<div class="product-header">
+						
+						<div class="total-product">
+							<p>12 Dari 40 Produk</p>
+							<div class="sorting-view mt-4">
+								<a href="#">
+									<img src="../assets/kotak.ico">
+								</a>
+								<a href="#">
+									<img src="../assets/baris.ico">
+								</a>
+							</div>
+						</div>
+
+						<div class="product-sorting">
+							<div class="date-sort">
+								<p>Sortir dengan</p>
+									<select name="select" id="dateSort" class="select-view">
+										<option value="">Tanggal</option>
+										<option value="">Terbaru</option>
+										<option value="">Populer</option>
+									</select>
+							</div>
+
+							<div class="date-sort">
+								<p>Tampilan</p>
+									<select name="select" id="dateSort" class="select-view">
+										<option value="">12</option>
+										<option value="">24</option>
+										<option value="">36</option>
+										<option value="">40</option>
+									</select>
+							</div>
+						</div>
+					</div>
+					<!-- Batas Header konten utama -->
+
+				</div>
+
+				<div class="row mt-6 mb-6">
+					<!-- Menambahkan item di konten utama -->
+
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-item-list">
+						<div class="product-item-wrapper">
+							<div class="product-img">
+								<img src="../assets/product/filetd.png">
+								<img class="hover-img" src="../assets/product/kulita.png">
+							</div>
+							<div class="product-info">
+								<div class="product-data">
+									<div class="strip-detail"></div>
+									<p class="price">Rp. 45.000,00</p>
+									<a href="product/filetd.html">
+										<h6>Filet Dada/ Kg</h6>
+									</a>
+								</div>
+								<div class="rating-cart">
+									<div class="rating">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+										<img src="../assets/star.ico">
+									</div>
+									<div>
+										<a href="#" title data-original-title="Tambahkan ke Keranjang">
+											<img src="../assets/cart.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Batas menambahkan item di konten utama -->
+				</div>
+
+				<div class="row mt-6 mb-6">
+					<div class="nav-page">
+						<nav aria-label="navigation" class="pagination is-right">
+							<ul class="pagination-list">
+								<li class="pagination-item">
+									<a href="#" class="pagination-link is-current">01.</a>
+								</li>
+								<li class="pagination-item">
+									<a href="#" class="pagination-link">02.</a>
+								</li>
+								<li class="pagination-item">
+									<a href="#" class="pagination-link">03.</a>
+								</li>
+								<li class="pagination-item">
+									<a href="#" class="pagination-link">04.</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
